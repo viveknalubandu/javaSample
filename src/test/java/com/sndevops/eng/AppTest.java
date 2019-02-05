@@ -7,10 +7,8 @@ import org.junit.Test;
 public class AppTest {
 
     private String INPUT = "123456";
-
     @Test
     public void testLength() {
-        Assert.assertEquals(INPUT,"12 34 "); 
-        
+        Assert.assertEquals(INPUT,"12 34 ");
     }
 }
