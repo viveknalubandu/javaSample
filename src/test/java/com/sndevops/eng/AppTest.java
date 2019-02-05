@@ -9,7 +9,7 @@ public class AppTest {
     private String INPUT = "123456";
     @Test
     public void testLength() {
-        // test
+        // Add few more details
         Assert.assertEquals(INPUT,"123456");
     }
 }
