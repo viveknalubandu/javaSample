@@ -10,6 +10,7 @@ public class AppTest {
 
     @Test
     public void testLength() {
-        Assert.assertEquals(INPUT,"12 34 ");
+        Assert.assertEquals(INPUT,"12 34 "); 
+        
     }
 }
