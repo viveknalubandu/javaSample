@@ -10,6 +10,5 @@ public class App
     {
         System.out.println( "Hello devops. How are you" );
         System.out.println( "Hello . Give me an apple" );
-        System.out.println( "Hello Give me a bannana" );
     }
 }
