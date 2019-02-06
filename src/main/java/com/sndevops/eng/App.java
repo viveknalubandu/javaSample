@@ -9,5 +9,7 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello devops. How are you" );
+        System.out.println( "Hello . Give me an apple" );
+        System.out.println( "Hello Give me a bannana" );
     }
 }
