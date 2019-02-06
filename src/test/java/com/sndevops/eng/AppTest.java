@@ -15,5 +15,6 @@ public class AppTest {
         // Add few more details. More details to be added 
         Assert.assertEquals(INPUT,"123456");
         Assert.assertEquals(INPUT1,"1234567");
+        Assert.assertEquals(INPUT2,"12345678");
     }
 }
