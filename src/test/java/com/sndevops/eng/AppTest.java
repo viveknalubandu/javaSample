@@ -20,6 +20,7 @@ public class AppTest {
     @Test
     public void testPassed() {
         // Add test cases 
+        // Add few lines
         Assert.assertEquals(isPassed,true);
     }
 }
