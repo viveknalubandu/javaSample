@@ -21,6 +21,6 @@ public class AppTest {
     public void testPassed() {
         // Add test cases 
         // Add few lines
-        Assert.assertEquals(isPassed,true);
+        Assert.assertEquals(isPassed,false);
     }
 }
