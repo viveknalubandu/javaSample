@@ -14,7 +14,7 @@ public class AppTest {
     public void testLength() {
         // Add few more details. More details to be added 
         Assert.assertEquals(INPUT,"123456");
-        Assert.assertEquals(INPUT1,"1234");
+        Assert.assertEquals(INPUT1,"1234567");
     }
     
     @Test
