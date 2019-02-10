@@ -10,6 +10,7 @@ public class AppTest {
     private String INPUT1 = "1234567";
     private String INPUT2 = "111114";
     private boolean isPassed = true;
+    // Add more tests
     @Test
     public void testLength() {
         // Add few more details. More details to be added 
