@@ -8,14 +8,14 @@ public class AppTest {
 
     private String INPUT = "123456";
     private String INPUT1 = "1234567";
-    private String INPUT2 = "111114";
+    private String INPUT2 = "111";
     private boolean isPassed = true;
     // Add more tests
     @Test
     public void testLength() {
         // Add few more details. More details to be added 
         Assert.assertEquals(INPUT,"123456");
-        Assert.assertEquals(INPUT2,"111114");
+        Assert.assertEquals(INPUT2,"111");
     }
     
     @Test
