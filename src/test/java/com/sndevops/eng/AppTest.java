@@ -8,7 +8,7 @@ public class AppTest {
 
     private String INPUT = "123456";
     private String INPUT1 = "1234567";
-    private String INPUT2 = "1115";
+    private String INPUT2 = "111";
     private boolean isPassed = true;
     // Add more tests
     @Test
