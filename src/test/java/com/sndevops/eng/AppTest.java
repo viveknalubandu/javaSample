@@ -9,7 +9,7 @@ public class AppTest {
     private String INPUT = "1111";
     private String INPUT1 = "1234567";
     private String INPUT2 = "117";
-    private boolean isPassed = true;
+    private boolean isPassed = false;
     // Add more tests
     @Test
     public void testLength() {
@@ -22,7 +22,7 @@ public class AppTest {
     public void testPassed() {
         // Add test cases 
         // Add few lines
-        Assert.assertEquals(isPassed,true);
-        Assert.assertEquals(isPassed,true);
+        Assert.assertEquals(isPassed,false);
+        Assert.assertEquals(isPassed,false);
     }
 }
