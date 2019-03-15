@@ -6,15 +6,15 @@ import org.junit.Test;
 
 public class AppTest {
  //Add tests to repo
-    private String INPUT = "11111111";
+    private String INPUT = "111";
     private String INPUT1 = "1234567";
     private String INPUT2 = "117";
-    private boolean isPassed = false;
+    private boolean isPassed = true;
     // Add more tests
     @Test
     public void testLength() {
         // Add few more details. More details to be added 
-        Assert.assertEquals(INPUT,"11111111");
+        Assert.assertEquals(INPUT,"111");
         Assert.assertEquals(INPUT2,"117");
     }
     
@@ -22,7 +22,7 @@ public class AppTest {
     public void testPassed() {
         // Add test cases 
         // Add few lines
-        Assert.assertEquals(isPassed,false);
-        Assert.assertEquals(isPassed,false);
+        Assert.assertEquals(isPassed,true);
+        Assert.assertEquals(isPassed,true);
     }
 }
