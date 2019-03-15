@@ -5,7 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class AppTest {
- //Add tests
+ //Add tests to repo
     private String INPUT = "1123";
     private String INPUT1 = "1234567";
     private String INPUT2 = "117";
