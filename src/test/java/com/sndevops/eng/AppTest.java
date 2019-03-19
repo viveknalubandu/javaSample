@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class AppTest {
  //Test with new Dev build 1
-    private String INPUT = "111";
+    private String INPUT = "1";
     private String INPUT1 = "1234567";
     private String INPUT2 = "117";
     private boolean isPassed = true;
