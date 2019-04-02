@@ -15,7 +15,7 @@ public class AppTest {
     @Test
     public void testLength() {
         // Test with new Dev build 1
-        Assert.assertEquals(INPUT,"111");
+        Assert.assertEquals(INPUT,"1");
         Assert.assertEquals(INPUT2,"115");
     }
     
