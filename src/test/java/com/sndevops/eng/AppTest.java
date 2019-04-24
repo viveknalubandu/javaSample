@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class AppTest {
  //Test with new Dev buid Test
- // Demo to test
+ // Demo to test and bet
     private String INPUT = "1";
     private String INPUT1 = "1234567";
     private String INPUT2 = "115";
