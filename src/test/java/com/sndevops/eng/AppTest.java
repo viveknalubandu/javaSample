@@ -5,7 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class AppTest {
-    private String INPUT = "1";
+    private String INPUT = "2";
     private String INPUT1 = "1234567";
     private String INPUT2 = "115";
     private boolean isPassed = true;
@@ -13,7 +13,7 @@ public class AppTest {
     @Test
     public void testLength() {
         // Test with new Dev build 1
-        Assert.assertEquals(INPUT,"1");
+        Assert.assertEquals(INPUT,"2");
         Assert.assertEquals(INPUT2,"115");
     }
     
