@@ -10,6 +10,7 @@ public class AppTest {
     private String INPUT2 = "115";
     private boolean isPassed = true;
     // Add more tests
+    // Connected , unconfigured track true
     @Test
     public void testLength() {
         // Test with new Dev build 1
