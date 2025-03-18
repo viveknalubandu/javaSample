@@ -32,7 +32,7 @@ jobs:
     - name: list test files
       run: ls -lrta target/surefire-reports/
     - name: cat test file
-      run:  cat TEST-com.sndevops.eng.AppTest.xml
+      run:  cat target/surefire-reports/TEST-com.sndevops.eng.AppTest.xml
     - name: ServiceNow DevOps Unit Test Results
       uses: ServiceNow/servicenow-devops-test-report@v3.1.0
       with:
