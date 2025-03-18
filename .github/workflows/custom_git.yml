@@ -32,7 +32,7 @@ jobs:
     - name: list test files
       run: ls -lrta target/surefire-reports/
     - name: cat test file
-      run:  cat target/surefire-reports/TEST-com.sa.web.SentimentControllerTest.xml
+      run:  cat TEST-com.sndevops.eng.AppTest.xml
     - name: ServiceNow DevOps Unit Test Results
       uses: ServiceNow/servicenow-devops-test-report@v3.1.0
       with:
@@ -41,7 +41,7 @@ jobs:
         tool-id: ${{ secrets.SN_ORCHESTRATION_TOOL_ID }}
         job-name: build
         context-github: ${{ toJSON(github) }}
-        xml-report-filename: target/surefire-reports/TEST-com.sa.web.SentimentControllerTest.xml
+        xml-report-filename: target/surefire-reports/TEST-com.sndevops.eng.AppTest.xml
 
 
   deploy:
