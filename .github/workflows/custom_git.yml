@@ -65,14 +65,14 @@ jobs:
           changeCreationTimeOut: '3600'
           abortOnChangeCreationFailure: true
           abortOnChangeStepTimeout: true
-          deployment-gate: '{"environment":"deploymnet-gate","jobName":"postDeploy"}'
+          #deployment-gate: '{"environment":"deploymnet-gate","jobName":"postDeploy"}'
       - name: Output of Change Creation
         run: echo "change-request-number = ${{ steps.create.outputs.change-request-number }}" >> $GITHUB_OUTPUT
 
 
   postDeploy:
       runs-on: ubuntu-latest
-      environment : deploymnet-gate
+      #environment : deploymnet-gate
       needs: deploy
       steps:
       - name: Build with Maven
