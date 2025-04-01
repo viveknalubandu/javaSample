@@ -33,7 +33,7 @@ jobs:
      container:
        image: servicenowdocker/sndevops:5.1.0
      env:
-       CI_JOB_NAME: "ServiceNowDevOpsChange"
+       CI_JOB_NAME: "ServiceNowDevOpsChange1"
 
      steps:
        - name: create change
@@ -46,7 +46,7 @@ jobs:
        container:
          image: servicenowdocker/sndevops:5.1.0
        env:
-         CI_JOB_NAME: "ServiceNowDevOpsChange"
+         CI_JOB_NAME: "ServiceNowDevOpsChange1"
   
        steps:
          - name: update change
