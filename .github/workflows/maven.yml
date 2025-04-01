@@ -9,9 +9,9 @@ on:
 permissions:
   contents: read
 env:
-  SNOW_URL: ${{ secrets.SNOW_URL }}
-  SNOW_TOKEN: ${{ secrets.SNOW_TOKEN }}
-  SNOW_TOOLID: ${{ secrets.SNOW_TOOLID }}
+  SNOW_URL: ${{ secrets.SN_INSTANCE_URL }}
+  SNOW_TOKEN: ${{ secrets.SN_DEVOPS_INTEGRATION_TOKEN }}
+  SNOW_TOOLID: ${{ secrets.SN_ORCHESTRATION_TOOL_ID }}
   # These are the optional env variables
   #PIPELINE_ID: ${{ github.run_id }}
   #API_V4_URL: ${{ github.server_url }}
