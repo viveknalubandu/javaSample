@@ -27,7 +27,7 @@ jobs:
         run: |
           echo 'hello'
 
-  ServiceNowDevOpsChange:
+  ServiceNowDevOpsChange1:
      runs-on: ubuntu-latest
      needs: build
      container:
@@ -42,7 +42,7 @@ jobs:
 
   ServiceNowUpdateDevOpsChange:
        runs-on: ubuntu-latest
-       needs: ServiceNowDevOpsChange
+       needs: ServiceNowDevOpsChange1
        container:
          image: servicenowdocker/sndevops:5.1.0
        env:
