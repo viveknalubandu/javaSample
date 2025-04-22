@@ -32,7 +32,7 @@ jobs:
      needs: build
      container:
        #image: servicenowdocker/sndevops:5.1.0
-       image: viveknalubandu339/sndevops:snapshots-6.0.0-rc3
+       image: viveknalubandu339/sndevops:release-6.0.0
      env:
        CI_JOB_NAME: "ServiceNowDevOpsChange1"
 
@@ -46,7 +46,7 @@ jobs:
        needs: ServiceNowDevOpsChange1
        container:
          #image: servicenowdocker/sndevops:5.1.0
-         image: viveknalubandu339/sndevops:snapshots-6.0.0-rc3
+         image: viveknalubandu339/sndevops:release-6.0.0
        env:
          CI_JOB_NAME: "ServiceNowDevOpsChange1"
   
@@ -60,7 +60,7 @@ jobs:
       needs: build
       container:
         #image: servicenowdocker/sndevops:5.1.0
-        image: viveknalubandu339/sndevops:snapshots-6.0.0-rc3
+        image: viveknalubandu339/sndevops:release-6.0.0
       env:
         CI_JOB_NAME: "ArtifactAndPackage"
       steps:
