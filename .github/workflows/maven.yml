@@ -31,8 +31,7 @@ jobs:
      runs-on: ubuntu-latest
      needs: build
      container:
-       #image: servicenowdocker/sndevops:5.1.0
-       image: viveknalubandu339/sndevops:release-6.0.0
+       image: servicenowdocker/sndevops:6.0.0
      env:
        CI_JOB_NAME: "ServiceNowDevOpsChange1"
 
@@ -45,8 +44,7 @@ jobs:
        runs-on: ubuntu-latest
        needs: ServiceNowDevOpsChange1
        container:
-         #image: servicenowdocker/sndevops:5.1.0
-         image: viveknalubandu339/sndevops:release-6.0.0
+         image: servicenowdocker/sndevops:6.0.0
        env:
          CI_JOB_NAME: "ServiceNowDevOpsChange1"
   
@@ -59,8 +57,7 @@ jobs:
       runs-on: ubuntu-latest
       needs: build
       container:
-        #image: servicenowdocker/sndevops:5.1.0
-        image: viveknalubandu339/sndevops:release-6.0.0
+        image: servicenowdocker/sndevops:6.0.0
       env:
         CI_JOB_NAME: "ArtifactAndPackage"
       steps:
