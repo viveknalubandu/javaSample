@@ -38,6 +38,7 @@ jobs:
           run: echo "change-request-number = ${{ steps.create.outputs.change-request-number }}" >> $GITHUB_OUTPUT
   Deploy:
    name: Deploy
+   environment : deployment-gate
    needs: ServiceNowDevOpsChange
    runs-on: ubuntu-latest
    steps:
