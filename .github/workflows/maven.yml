@@ -27,13 +27,13 @@ jobs:
         run: |
           echo 'hello'
 
-  ServiceNowDevOpsChange1:
+  ServiceNowDevOpsChange:
      runs-on: ubuntu-latest
      needs: build
      container:
        image: viveknalubandu339/sndevops:6.1.0
      env:
-       CI_JOB_NAME: "ServiceNowDevOpsChange1"
+       CI_JOB_NAME: "ServiceNowDevOpsChange"
 
      steps:
        - name: create change
@@ -46,7 +46,7 @@ jobs:
        container:
          image: viveknalubandu339/sndevops:6.1.0
        env:
-         CI_JOB_NAME: "ServiceNowDevOpsChange1"
+         CI_JOB_NAME: "ServiceNowDevOpsChange"
   
        steps:
          - name: update change
