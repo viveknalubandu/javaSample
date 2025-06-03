@@ -42,7 +42,7 @@ jobs:
 
   ServiceNowUpdateDevOpsChange:
        runs-on: ubuntu-latest
-       needs: ServiceNowDevOpsChange1
+       needs: ServiceNowDevOpsChange
        container:
          image: viveknalubandu339/sndevops:6.1.0
        env:
