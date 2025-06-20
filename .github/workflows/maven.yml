@@ -1,4 +1,4 @@
-name: GithubAction
+name: GithubAction1
 
 on: workflow_dispatch
 run-name: GithubActions ${{ github.run_id }}
