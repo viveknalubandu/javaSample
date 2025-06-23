@@ -1,6 +1,6 @@
 name: devops_tests
 on: workflow_dispatch
- 
+run-name: devops_tests ${{ github.run_id }} 
 jobs:
   helloWorld1:
     name: helloWorld1
